@@ -1,0 +1,99 @@
+.carousel-indicators button{
+    width: 12px!important;
+    height: 12px!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+    color: gray!important;
+}
+.carousel-indicators{
+    top: 74%;
+
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--light-green)!important;
+}
+.prev{
+    
+    width: 40px!important;
+    height: 40px!important;
+    background-color: #fefefe!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+    
+}
+
+.carousel-control-prev{
+    bottom: 65%!important;
+    /* display: none!important; */
+}
+.carousel-control-next{
+    bottom: 65%!important;
+    /* display: none!important; */
+}
+/* .carousel-control-prev:hover{
+     display: block!important;
+}
+.carousel-control-next:hover{
+    display: block!important;
+} */
+.self{
+    padding: 80px 0;
+}
+.self h2{
+    font-size: 4rem;
+}
+.self p{
+    font-size: 2.5rem;
+}
+.self .loc{
+    font-size: 2rem;
+}
+.self h3{
+    font-size: 2.5rem;
+}
+.lead-text .say{
+    padding-bottom: 7rem ;
+}
+.self input, textarea{
+    background: transparent!important;
+    border: none!important;
+    border-bottom: 2px solid rgb(182, 181, 181)!important;
+    outline: none!important;
+}
+.carousel-inner .carousel-item p{
+    padding: 0 14rem;
+}
+.carousel-inner .carousel-item img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.carousel-caption{
+    top: 52%;
+}
+
+
+@media(max-width:576px){
+   .lead-text .say{
+    padding-bottom: 2rem ;
+    font-size: 3rem!important;
+}
+.carousel-indicators{
+    top: 39rem;
+}
+.carousel-caption{
+    top: 28rem;
+}
+.self{
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner .carousel-item p{
+    padding: 0 6rem;
+}
+}

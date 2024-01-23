@@ -1,0 +1,39 @@
+.quest{
+    font-size: 4rem;
+}
+.accordion-item {
+
+    border: none!important; 
+}
+button:hover {
+    text-decoration: none!important; 
+}
+.accordion-button:focus {
+
+     box-shadow: none!important;
+     color: #000000!important;
+}
+body {
+    font-family: sans-serif;
+  }
+  
+  
+  #bodyHolder {
+    margin-top: 200px;
+  }
+  
+  .bulbHolder {
+    text-align: center;
+  }
+  
+
+
+  @media(max-width:576px){
+    #bodyHolder {
+        margin-top: 50px;
+       
+    }
+    .faq{
+      text-align: center;
+    }
+  }

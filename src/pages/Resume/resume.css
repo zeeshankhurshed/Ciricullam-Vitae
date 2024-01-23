@@ -1,0 +1,56 @@
+
+.s-space{
+    margin: 100px 0;
+
+}
+.lead-text.know{
+    font-size: 5rem;
+}
+.my{
+    border-left: 3px solid #00fe9c;
+    margin-left: 1rem;
+}
+.edu{
+    font-size:5rem;
+}
+.bach{
+    font-size:4rem;
+}
+.asgh{
+    font-size:2rem;
+}
+.skill{
+    font-size: 3rem;
+}
+.progress-bar{
+    background-color: #00fe9c!important;
+   
+}
+.dwn{
+    margin-bottom: 9rem!important;
+}
+.resume{
+    text-transform: none!important;
+    color: var(--light-green)!important;
+    padding: 1.5rem 4rem!important;
+    border: 2px solid black!important;
+   
+}
+.resume:hover{
+    color:var(--white)!important;
+    background-color: var(--black);
+}
+@media(max-width:576px){
+    .cation{
+        text-align: center;
+    }
+    .exp{
+        padding-top:2rem
+    }
+    .skill{
+        text-align: center;
+    }
+    .my{
+    margin-left: 0!important;
+    }
+}

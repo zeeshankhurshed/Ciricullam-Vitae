@@ -1,0 +1,13 @@
+.se-space{
+    margin: 100px 0;
+    padding-top: 10rem;
+}
+/* .lead-text .know{
+    font-size: 5rem;
+} */
+
+@media(max-width:576){
+    .you h2{
+        font-size: 3rem!important;
+    }
+}

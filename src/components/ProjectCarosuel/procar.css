@@ -1,0 +1,28 @@
+
+.carousel-inner .carousel-item .car {
+    width: 100%;
+    height: 100%; 
+     border: none;
+     border-radius: 0;
+}
+.perv{
+    top: 50%!important;
+    left: 2rem!important;
+    width: 50px!important;
+    height: 50px!important;
+    background-color: white!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+}
+.nxt{
+    top: 50%!important;
+    right: 50rem!important;
+    width: 50px!important;
+    height: 50px!important;
+    background-color: white!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+}
+.cap{
+    position: initial!important;
+}

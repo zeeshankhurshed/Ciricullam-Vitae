@@ -1,0 +1,71 @@
+.modal-overlay{
+    position: fixed;
+    background-color: rgba(0,0,0,1);
+    inset: 0;
+    z-index: 99;
+}
+.modal-inner{
+    position: fixed;
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    padding: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: scroll;
+}
+.closebtn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+.carimg {
+    width: 100%;
+    height: 100%; 
+}
+.carousel-inner .carousel-item .car {
+    width: 100%;
+    height: 100%; 
+     border: none;
+     border-radius: 0;
+     
+}
+.perv{
+    top: 50%!important;
+    left: 2rem!important;
+    width: 50px!important;
+    height: 50px!important;
+    background-color: white!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+}
+.nxt{
+    top: 50%!important;
+    right: 50rem!important;
+    width: 50px!important;
+    height: 50px!important;
+    background-color: white!important;
+    border: 1px solid transparent!important;
+    border-radius: 50%!important;
+}
+.cap{
+    position: initial!important;
+}
+
+@media(max-width:576px){
+    .perv{
+        display: none!important;
+
+    }
+    .nxt{
+   display: none!important;
+    }
+    .cap{
+        display: inline-block!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+   
+}

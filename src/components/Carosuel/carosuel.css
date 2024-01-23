@@ -1,0 +1,82 @@
+.free{
+    font-size: 4rem;
+}
+.text{
+    font-size: 11rem;
+}
+.cursor{
+    font-size: 14rem;
+}
+.location{
+    font-size: 14rem;
+}
+body {
+    background:#0b1d2a;
+  }
+  
+  .arrows {
+      width: 60px;
+      height: 72px;
+      position: absolute;
+      left: 48%;
+      /* margin-left: -30px; */
+      bottom: 20px;
+  }
+  
+  .arrows path {
+      stroke: #fefefe;
+      fill: transparent;
+      stroke-width: 1px;	
+      -webkit-animation: arrow 2s infinite; 
+      animation: arrow 2s infinite;
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+      -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+      animation-delay:-1s;
+  }
+  
+  .arrows path.a2 {
+      -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+      animation-delay:-0.5s;
+  }
+  
+  .arrows path.a3 {	
+      -webkit-animation-delay:0s; /* Safari 和 Chrome */
+      animation-delay:0s;
+  }
+@media(max-width:576px){
+    .free{
+        font-size: 2rem;
+    }
+    .text{
+        font-size: 3.2rem;
+    }
+    .cursor{
+        font-size: 7rem;
+    }
+    .location{
+        font-size: 7rem;
+    }
+
+.arrows {
+    left: 41%;
+    bottom: 15rem;
+}
+}

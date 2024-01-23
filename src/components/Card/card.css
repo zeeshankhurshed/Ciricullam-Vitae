@@ -1,0 +1,14 @@
+.det{
+    font-size: 2rem;
+}
+.pic{
+    fill:#00fe9c;
+}
+
+
+@media(max-width:576px){
+    .des{
+        text-align: center;
+}
+    
+}

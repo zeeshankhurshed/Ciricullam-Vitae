@@ -1,0 +1,60 @@
+.sec-space{
+    margin: 40px 0;
+}
+.lead-text.know{
+    font-size: 3rem;
+}
+.know{
+    font-size: 5rem;
+    font-weight: 900;
+  
+}
+.zee{
+    font-size: 3rem;
+}
+.zee span{
+    border-bottom: 8px solid #00fe9c;
+}
+.intro{
+    font-size: 2.5rem;
+
+}
+.three{
+    font-weight: 900;
+    font-size: 20rem;
+}
+.year{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.year span{
+    font-weight: bolder!important;
+    font-size: 4rem;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    background-color:#00fe9c ;
+    border-radius: 50%;
+    position:absolute;
+    z-index: -9999999999;
+    top: 5rem;
+    right: 12rem;
+}
+@media(max-width:576px){
+    .circle {
+        top: 58rem;
+        right: 13rem;
+    }
+    .zee{
+        text-align: center;
+    }
+    .info{
+        text-align: center;
+    }
+    .intro{
+     text-align: center;
+    
+    }
+}
