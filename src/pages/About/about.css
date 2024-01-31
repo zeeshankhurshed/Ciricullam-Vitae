@@ -31,7 +31,7 @@
     font-weight: bolder!important;
     font-size: 4rem;
 }
-.circle{
+/* .circle{
     width: 150px;
     height: 150px;
     border: 1px solid transparent;
@@ -41,6 +41,17 @@
     z-index: -9999999999;
     top: 5rem;
     right: 12rem;
+} */
+.tee{
+    width: 180px;
+    height: 180px;
+    border: 1px solid transparent;
+    background-color:#00fe9c ;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media(max-width:576px){
     .circle {
@@ -56,5 +67,19 @@
     .intro{
      text-align: center;
     
+    }
+    .circle{
+       display: none;
+    }
+    .tee{
+        width: 150px;
+        height: 150px;
+        border: 1px solid transparent;
+        background-color:#00fe9c ;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

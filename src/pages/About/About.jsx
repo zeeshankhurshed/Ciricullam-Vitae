@@ -26,10 +26,12 @@ const About = () => {
           </div>
           <div className="col-md-4 py-3">
             <div className='text-center '>
+              <div className='tee'>
             <h2 className='text-muted three m-0'>03</h2>
+              </div>
             <p className='year '>Years of <span className=''>Experience</span></p>
             </div>
-            <div className='circle'></div>
+            {/* <div className='circle'></div> */}
           </div>
         </div>
         <div className="row m-0 pt-5 info">
