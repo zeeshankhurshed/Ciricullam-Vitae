@@ -114,6 +114,24 @@ const Resume = () => {
         </div>
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>TypeScript</h5>
+            <p className='fw-bold fs-3'>60%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        </div>
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>Next Js</h5>
+            <p className='fw-bold fs-3'>75%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+        </div>
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>React Js</h5>
             <p className='fw-bold fs-3'>75%</p>
           </div>

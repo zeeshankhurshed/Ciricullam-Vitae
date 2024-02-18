@@ -20,8 +20,7 @@ const About = () => {
           <div className="col-md-8">
             <h2 className='zee mb-5'>HI, I'm <span className=' fw-bold '>Zeeshan Khursheed</span></h2>
             <p className='intro text-muted fw-bold'>
-                🚀 MERN Stack Developer | Frontend Specialist
-                Hello! I'm a MERN stack developer, skilled at translating concepts into powerful web applications. Specializing in HTML, CSS, Bootstrap, and Tailwind CSS, I excel in crafting visually striking and responsive interfaces. With a proven track record, I deliver results aligned with your vision and user expectations. Ready to enhance your web presence? Let's craft something extraordinary! 💻🚀✨
+            💼 Passionate Next Js ||React Js ||TypeScript || MERN Stack Maestro || Bootstrap & Tailwind CSS Whisperer 🚀 || Freelancer Extraordinaire 💪 || Eternal Learner 📚💡
             </p>
           </div>
           <div className="col-md-4 py-3">
@@ -34,7 +33,7 @@ const About = () => {
             {/* <div className='circle'></div> */}
           </div>
         </div>
-        <div className="row m-0 pt-5 info">
+        <div className="row m-0 info">
           <div className="col-md-3 col-sm-6">
             <p className='fs-3 text-black-50 fw-bold'>Name:</p>
             <h2 className='fw-bold fs-2 '>Zeeshan Khursheed</h2>

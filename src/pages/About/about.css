@@ -21,15 +21,15 @@
 }
 .three{
     font-weight: 900;
-    font-size: 20rem;
+    font-size: 15rem;
 }
 .year{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .year span{
     font-weight: bolder!important;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 /* .circle{
     width: 150px;
@@ -43,8 +43,8 @@
     right: 12rem;
 } */
 .tee{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border: 1px solid transparent;
     background-color:#00fe9c ;
     border-radius: 50%;

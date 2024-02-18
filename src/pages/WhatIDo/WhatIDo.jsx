@@ -13,8 +13,8 @@ const WhatIDo = ({detail}) => {
   return (
     <>
     <div className='bg-light' style={{marginBottom:'3rem!important'}}>
-       <div className='lead-text se-space you'>
-        <div className="container text-center " >
+       <div className='lead-text mt-5 pt-5 you'>
+        <div className="container text-center pt-5" >
         <p className='text-black fs-2 d-inline-block px-3' data-aos="fade-up" style={{backgroundColor:'#00fe9c'}}>What I Do?</p>
         <h2 className='' style={{fontSize:'5rem'}} data-aos="fade-up">How i can help your next project</h2>
         </div>
