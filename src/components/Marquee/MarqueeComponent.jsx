@@ -13,6 +13,7 @@ import react from '/images/react.png';
 import tailwind from '/images/tailwind.jpeg';
 import typescript from '/images/typescript.png';
 import webdesign from '/images/webdesign.jpg';
+import wordpress from '/images/wordpress.png';
  import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './marque.css';
@@ -68,6 +69,9 @@ const MarqueeComponent = () => {
         </div>
         <div className='px-5 ' >
           <img src={webdesign} style={{width:'20rem', height:'20rem'}} alt="" />
+        </div>
+        <div className='px-5 ' >
+          <img src={wordpress} style={{width:'20rem', height:'20rem'}} alt="" />
         </div>
       </Marquee>
     </div>

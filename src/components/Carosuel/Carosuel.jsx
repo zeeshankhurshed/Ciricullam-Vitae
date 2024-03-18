@@ -5,7 +5,7 @@ import './carosuel.css'
 
 const Carousel = () => {
   const  [text]  = useTypewriter({
-    words: ['CIRICULAM', 'MERN DEVELOPER', 'FRONTEND SPECILIST'],
+    words: ['CIRICULLAM','Next JS Developer', 'MERN Developer', 'WordPress Developer'],
     loop: {},
     typeSpeed:120,
     deleteSpeed:80,

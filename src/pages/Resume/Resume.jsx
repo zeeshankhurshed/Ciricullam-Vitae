@@ -76,7 +76,7 @@ const Resume = () => {
     <div className="container s-space">
       <h2 className='fw-bold skill' data-aos="fade-up">My Skills</h2>
       <div className="row p-0" data-aos="fade-up">
-        <div className="col-md-6 pt-5">
+        {/* <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>Web Designing</h5>
             <p className='fw-bold fs-3'>90%</p>
@@ -84,7 +84,8 @@ const Resume = () => {
           <div className="progress ">
         <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
         </div>
-        </div>
+        </div> */}
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>HTML</h5>
@@ -94,6 +95,7 @@ const Resume = () => {
         <div className="progress-bar" role="progressbar" style={{width: '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
         </div>
         </div>
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>CSS</h5>
@@ -103,42 +105,47 @@ const Resume = () => {
         <div className="progress-bar" role="progressbar" style={{width: '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
         </div>
         </div>
-        <div className="col-md-6 pt-5">
-          <div className='d-flex justify-content-between align-items-center'>
-            <h5 className='fw-bold fs-3'>Javascript</h5>
-            <p className='fw-bold fs-3'>60%</p>
-          </div>
-          <div className="progress ">
-        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-        </div>
-        </div>
-        <div className="col-md-6 pt-5">
-          <div className='d-flex justify-content-between align-items-center'>
-            <h5 className='fw-bold fs-3'>TypeScript</h5>
-            <p className='fw-bold fs-3'>60%</p>
-          </div>
-          <div className="progress ">
-        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-        </div>
-        </div>
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>Next Js</h5>
-            <p className='fw-bold fs-3'>75%</p>
+            <p className='fw-bold fs-3'>85%</p>
           </div>
           <div className="progress ">
         <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
         </div>
         </div>
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>React Js</h5>
+            <p className='fw-bold fs-3'>85%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+        </div>
+
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>MERN</h5>
+            <p className='fw-bold fs-3'>75%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        </div>
+
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>WordPress</h5>
             <p className='fw-bold fs-3'>75%</p>
           </div>
           <div className="progress ">
         <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
         </div>
         </div>
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
             <h5 className='fw-bold fs-3'>Bootstrap</h5>
@@ -148,25 +155,38 @@ const Resume = () => {
         <div className="progress-bar" role="progressbar" style={{width: '95%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
         </div>
         </div>
+
         <div className="col-md-6 pt-5">
           <div className='d-flex justify-content-between align-items-center'>
-            <h5 className='fw-bold fs-3'>MERN</h5>
+            <h5 className='fw-bold fs-3'>Tailwind</h5>
+            <p className='fw-bold fs-3'>80%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        </div>
+
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>Javascript</h5>
+            <p className='fw-bold fs-3'>75%</p>
+          </div>
+          <div className="progress ">
+        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        </div>
+
+        <div className="col-md-6 pt-5">
+          <div className='d-flex justify-content-between align-items-center'>
+            <h5 className='fw-bold fs-3'>TypeScript</h5>
             <p className='fw-bold fs-3'>60%</p>
           </div>
           <div className="progress ">
         <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
         </div>
         </div>
-        <div className="col-md-6 pt-5">
-          <div className='d-flex justify-content-between align-items-center'>
-            <h5 className='fw-bold fs-3'>Tailwind</h5>
-            <p className='fw-bold fs-3'>40%</p>
-          </div>
-          <div className="progress ">
-        <div className="progress-bar" role="progressbar" style={{width: '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+
         </div>
-        </div>
-      </div>
     </div>
 
     <div className="container d-flex justify-content-center dwn" data-aos="fade-up">

@@ -20,7 +20,7 @@ const About = () => {
           <div className="col-md-8">
             <h2 className='zee mb-5'>HI, I'm <span className=' fw-bold '>Zeeshan Khursheed</span></h2>
             <p className='intro text-muted fw-bold'>
-            💼 Passionate Next Js ||React Js ||TypeScript || MERN Stack Maestro || Bootstrap & Tailwind CSS Whisperer 🚀 || Freelancer Extraordinaire 💪 || Eternal Learner 📚💡
+            💼 Passionate Next Js ||React Js ||TypeScript || MERN Stack Maestro || Bootstrap & Tailwind CSS Whisperer 🚀 || Freelancer Extraordinaire 💪 || Eternal Learner 📚💡 || WordPress 
             </p>
           </div>
           <div className="col-md-4 py-3">
